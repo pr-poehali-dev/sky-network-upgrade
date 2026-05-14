@@ -111,6 +111,22 @@ export default function Listings() {
       tags: ["Дом", "Продажа", "Автономное отопление"],
       features: ["Зал, спальня, кухня, ванная, гардеробная", "Сауна, спортзал, котельная", "Просторный двор с мощением", "Автономное отопление"],
     },
+    {
+      id: 3,
+      title: "Дом с ремонтом",
+      address: "г. Иловайск, ул. Войкова",
+      price: "5 000 000 ₽",
+      phone: "+7 949 087-60-65",
+      images: [
+        "https://cdn.poehali.dev/projects/8bb11961-3f52-49a1-b812-c28d483a307b/bucket/a32f0c5d-0138-4ba3-9856-52c3b4f83d78.jpg",
+        "https://cdn.poehali.dev/projects/8bb11961-3f52-49a1-b812-c28d483a307b/bucket/4b579605-b304-4d8f-afb0-6e696a4fcf15.jpg",
+        "https://cdn.poehali.dev/projects/8bb11961-3f52-49a1-b812-c28d483a307b/bucket/7d7b93f5-6461-4a0b-bcc7-1e71e92d4604.jpg",
+        "https://cdn.poehali.dev/projects/8bb11961-3f52-49a1-b812-c28d483a307b/bucket/cdf19cdf-1148-467c-9852-e6e2648948ef.jpg",
+        "https://cdn.poehali.dev/projects/8bb11961-3f52-49a1-b812-c28d483a307b/bucket/c2b206f0-3ac3-4a2f-be95-84d33665f62e.jpg",
+      ],
+      tags: ["Дом", "Продажа", "С ремонтом"],
+      features: ["Евроремонт, новый ламинат, лепнина", "Зал с камином, спальня, ванная", "Современная сантехника", "Ухоженный двор"],
+    },
   ];
 
   return (
